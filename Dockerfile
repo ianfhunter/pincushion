@@ -17,16 +17,16 @@ WORKDIR /app
 COPY backend/requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY backend/knitarr ./knitarr
-COPY --from=frontend /frontend/dist ./knitarr/static
+COPY backend/pincushion ./pincushion
+COPY --from=frontend /frontend/dist ./pincushion/static
 COPY samples ./samples
 
-ENV KNITARR_DATA_DIR=/data \
-    KNITARR_DB_PATH=/data/knitarr.db \
-    KNITARR_LIBRARY_DIR=/data/library
+ENV PINCUSHION_DATA_DIR=/data \
+    PINCUSHION_DB_PATH=/data/pincushion.db \
+    PINCUSHION_LIBRARY_DIR=/data/library
 
 RUN mkdir -p /data/library
 
 EXPOSE 8765
 
-CMD ["uvicorn", "knitarr.main:app", "--host", "0.0.0.0", "--port", "8765"]
+CMD ["uvicorn", "pincushion.main:app", "--host", "0.0.0.0", "--port", "8765"]

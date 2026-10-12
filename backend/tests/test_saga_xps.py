@@ -9,11 +9,11 @@ import unittest
 import zipfile
 from pathlib import Path
 
-from knitarr.parsers.oxs import NormalizedPattern, PaletteEntry, write_oxs
-from knitarr.parsers.saga import parse_saga
-from knitarr.parsers.saga_container import characterize_saga
-from knitarr.parsers.xsp_container import characterize_xsp
-from knitarr.services.image_to_oxs import document_filetype, looks_like_xps, pdf_page_count
+from pincushion.parsers.oxs import NormalizedPattern, PaletteEntry, write_oxs
+from pincushion.parsers.saga import parse_saga
+from pincushion.parsers.saga_container import characterize_saga
+from pincushion.parsers.xsp_container import characterize_xsp
+from pincushion.services.image_to_oxs import document_filetype, looks_like_xps, pdf_page_count
 
 
 def _sample_norm() -> NormalizedPattern:

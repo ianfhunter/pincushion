@@ -6,9 +6,9 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from knitarr.parsers.oxs import NormalizedPattern, PaletteEntry, parse_oxs, write_oxs
-from knitarr.services.catalog import sanitize_filename
-from knitarr.services.image_to_oxs import looks_like_dmc_label, nearest_dmc, parse_hex_rgb
+from pincushion.parsers.oxs import NormalizedPattern, PaletteEntry, parse_oxs, write_oxs
+from pincushion.services.catalog import sanitize_filename
+from pincushion.services.image_to_oxs import looks_like_dmc_label, nearest_dmc, parse_hex_rgb
 
 
 class ChartEditTests(unittest.TestCase):
@@ -81,7 +81,7 @@ class ChartEditTests(unittest.TestCase):
 
     def test_expand_implied_peak_companions(self):
         """Ursa stores only the right half of a /\\ peak; left BR is implied by backstitch."""
-        from knitarr.parsers.oxs import expand_implied_part_halves, write_oxs
+        from pincushion.parsers.oxs import expand_implied_part_halves, write_oxs
 
         norm = NormalizedPattern(
             title="Peak",
@@ -128,7 +128,7 @@ class ChartEditTests(unittest.TestCase):
 
     def test_expand_backstitch_neighbor_half(self):
         """Empty cell cut by a diagonal next to a full stitch gets the touching half."""
-        from knitarr.parsers.oxs import expand_implied_part_halves
+        from pincushion.parsers.oxs import expand_implied_part_halves
 
         norm = NormalizedPattern(
             title="Clip",

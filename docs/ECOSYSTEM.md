@@ -1,10 +1,10 @@
-# Knitarr — ecosystem research
+# PinCushion — ecosystem research
 
 Phase 1 research for cross-stitch pattern acquisition and library management.
 
 ## Pattern file formats
 
-| Format | Nature | Knitarr handling |
+| Format | Nature | PinCushion handling |
 |--------|--------|------------------|
 | **OXS (.oxs)** | Open UTF-8 XML ([Ursa OXSFormat](https://www.ursasoftware.com/OXSFormat/)) | Canonical interchange: import/export, grid viewer, DMC extraction |
 | **PCStitch (.pat)** | Proprietary binary, version-locked | Store original only; no server parser in MVP |
@@ -14,7 +14,7 @@ Phase 1 research for cross-stitch pattern acquisition and library management.
 | **XSPro Platinum (.xsp)** | ZIP with `XSPPLAT\\0` local-header magic, member `adesignfile.xsu`, traditional ZIP encryption flag | Store original; convert only if the bytes are actually XPS |
 | **Stitch Fiddle (.fcjson)** | Proprietary | Future |
 | **PDF / PNG / JPG** | Delivery formats | Viewer-first; no invented stitch grid |
-| **Internal JSON** | Knitarr normalized representation | Derived from OXS when available |
+| **Internal JSON** | PinCushion normalized representation | Derived from OXS when available |
 
 OXS note: some files use GBR hex order; parser treats colors as RGB unless configured.
 
@@ -30,7 +30,7 @@ No established OSS “Sonarr for cross-stitch” product exists.
 
 ## Legitimate data sources
 
-| Source | Access | Knitarr mode |
+| Source | Access | PinCushion mode |
 |--------|--------|--------------|
 | **Internet Archive** | Search scrape + metadata API | MVP indexer: search, metadata, download when files exist |
 | **Wikimedia Commons** | MediaWiki API | Small category; supplement |

@@ -1,10 +1,10 @@
-# Knitarr
+# PinCushion
 
 (WARNING: This project is very much in prototype phase)
 
 A self-hosted crafting catalogue featuring pattern discovery, library curation and pattern modification.
 
-At present Knitarr is focussed on delivering a premium Cross-Stitch experience before we will enhance our other craft targets, but the end goal is to be a comprehensive platform for Needlework.
+At present PinCushion is focussed on delivering a premium Cross-Stitch experience before we will enhance our other craft targets, but the end goal is to be a comprehensive platform for Needlework.
 
 ## Features
 
@@ -35,8 +35,8 @@ We do not condone piracy. Torrenting however is a great mechanism for archival a
 
 > Okay I'm convinced, how do I use them?
 
-You will have to host the torrent files in another application or website. The burden of moderation is unfortunately too large for Knitarr to take on 
+You will have to host the torrent files in another application or website. The burden of moderation is unfortunately too large for PinCushion to take on 
 
 > Why are you using these odd file formats I've never heard of?
 
-In a similar spirit of collaboration and openness, Knitarr makes opensource formats the default choice. It enables crafters to use their material as they like - for example, they could experiment with how another thread might look, do an artistic tweak etc. Proprietary formats discourage this due to their inherent design.
+In a similar spirit of collaboration and openness, PinCushion makes opensource formats the default choice. It enables crafters to use their material as they like - for example, they could experiment with how another thread might look, do an artistic tweak etc. Proprietary formats discourage this due to their inherent design.

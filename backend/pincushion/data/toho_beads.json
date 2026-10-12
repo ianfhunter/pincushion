@@ -1,0 +1,632 @@
+[
+  {
+    "number": "TR1",
+    "name": "Opaque White",
+    "rgb": [
+      250,
+      250,
+      250
+    ]
+  },
+  {
+    "number": "TR49",
+    "name": "Opaque Black",
+    "rgb": [
+      25,
+      25,
+      25
+    ]
+  },
+  {
+    "number": "TR45",
+    "name": "Opaque Red",
+    "rgb": [
+      205,
+      35,
+      40
+    ]
+  },
+  {
+    "number": "TR50",
+    "name": "Opaque Orange",
+    "rgb": [
+      240,
+      125,
+      35
+    ]
+  },
+  {
+    "number": "TR42",
+    "name": "Opaque Yellow",
+    "rgb": [
+      245,
+      215,
+      45
+    ]
+  },
+  {
+    "number": "TR47",
+    "name": "Opaque Green",
+    "rgb": [
+      40,
+      145,
+      65
+    ]
+  },
+  {
+    "number": "TR48",
+    "name": "Opaque Blue",
+    "rgb": [
+      40,
+      85,
+      180
+    ]
+  },
+  {
+    "number": "TR46",
+    "name": "Opaque Purple",
+    "rgb": [
+      125,
+      50,
+      160
+    ]
+  },
+  {
+    "number": "TR122",
+    "name": "Opaque Pink",
+    "rgb": [
+      240,
+      125,
+      170
+    ]
+  },
+  {
+    "number": "TR46F",
+    "name": "Opaque Brown",
+    "rgb": [
+      120,
+      70,
+      40
+    ]
+  },
+  {
+    "number": "TR53",
+    "name": "Opaque Grey",
+    "rgb": [
+      145,
+      145,
+      145
+    ]
+  },
+  {
+    "number": "TR41",
+    "name": "Opaque Cream",
+    "rgb": [
+      255,
+      245,
+      210
+    ]
+  },
+  {
+    "number": "TR2113",
+    "name": "Opaque Light Pink",
+    "rgb": [
+      255,
+      190,
+      205
+    ]
+  },
+  {
+    "number": "TR43",
+    "name": "Opaque Light Blue",
+    "rgb": [
+      150,
+      200,
+      235
+    ]
+  },
+  {
+    "number": "TR55",
+    "name": "Opaque Turquoise",
+    "rgb": [
+      45,
+      170,
+      170
+    ]
+  },
+  {
+    "number": "TR44",
+    "name": "Opaque Light Green",
+    "rgb": [
+      150,
+      210,
+      100
+    ]
+  },
+  {
+    "number": "TR47D",
+    "name": "Opaque Dark Green",
+    "rgb": [
+      25,
+      95,
+      50
+    ]
+  },
+  {
+    "number": "TR48D",
+    "name": "Opaque Dark Blue",
+    "rgb": [
+      30,
+      50,
+      120
+    ]
+  },
+  {
+    "number": "TR221",
+    "name": "Silver Lined Crystal",
+    "rgb": [
+      220,
+      225,
+      230
+    ]
+  },
+  {
+    "number": "TR25",
+    "name": "Silver Lined Red",
+    "rgb": [
+      210,
+      50,
+      55
+    ]
+  },
+  {
+    "number": "TR22",
+    "name": "Silver Lined Gold",
+    "rgb": [
+      220,
+      175,
+      50
+    ]
+  },
+  {
+    "number": "TR27",
+    "name": "Silver Lined Green",
+    "rgb": [
+      50,
+      160,
+      70
+    ]
+  },
+  {
+    "number": "TR23",
+    "name": "Silver Lined Blue",
+    "rgb": [
+      50,
+      100,
+      200
+    ]
+  },
+  {
+    "number": "TR26",
+    "name": "Silver Lined Amethyst",
+    "rgb": [
+      140,
+      70,
+      180
+    ]
+  },
+  {
+    "number": "TR5",
+    "name": "Transparent Red",
+    "rgb": [
+      210,
+      70,
+      70
+    ]
+  },
+  {
+    "number": "TR2",
+    "name": "Transparent Yellow",
+    "rgb": [
+      240,
+      220,
+      70
+    ]
+  },
+  {
+    "number": "TR7",
+    "name": "Transparent Green",
+    "rgb": [
+      70,
+      180,
+      90
+    ]
+  },
+  {
+    "number": "TR3",
+    "name": "Transparent Blue",
+    "rgb": [
+      70,
+      120,
+      210
+    ]
+  },
+  {
+    "number": "TR6",
+    "name": "Transparent Purple",
+    "rgb": [
+      130,
+      70,
+      170
+    ]
+  },
+  {
+    "number": "TR557",
+    "name": "Galvanized Gold",
+    "rgb": [
+      205,
+      165,
+      55
+    ]
+  },
+  {
+    "number": "TR558",
+    "name": "Galvanized Silver",
+    "rgb": [
+      175,
+      180,
+      185
+    ]
+  },
+  {
+    "number": "TR761",
+    "name": "Opaque Peach",
+    "rgb": [
+      255,
+      185,
+      145
+    ]
+  },
+  {
+    "number": "TR765",
+    "name": "Opaque Salmon",
+    "rgb": [
+      255,
+      140,
+      120
+    ]
+  },
+  {
+    "number": "TR766",
+    "name": "Opaque Coral",
+    "rgb": [
+      245,
+      100,
+      95
+    ]
+  },
+  {
+    "number": "TR910",
+    "name": "Opaque Magenta",
+    "rgb": [
+      200,
+      40,
+      130
+    ]
+  },
+  {
+    "number": "TR934",
+    "name": "Opaque Orchid",
+    "rgb": [
+      180,
+      100,
+      175
+    ]
+  },
+  {
+    "number": "TR935",
+    "name": "Opaque Lilac",
+    "rgb": [
+      195,
+      170,
+      220
+    ]
+  },
+  {
+    "number": "TR933",
+    "name": "Opaque Periwinkle",
+    "rgb": [
+      110,
+      125,
+      200
+    ]
+  },
+  {
+    "number": "TR43B",
+    "name": "Opaque Sky",
+    "rgb": [
+      130,
+      190,
+      235
+    ]
+  },
+  {
+    "number": "TR55B",
+    "name": "Opaque Aqua",
+    "rgb": [
+      70,
+      175,
+      190
+    ]
+  },
+  {
+    "number": "TR47B",
+    "name": "Opaque Mint",
+    "rgb": [
+      150,
+      220,
+      180
+    ]
+  },
+  {
+    "number": "TR44B",
+    "name": "Opaque Lime",
+    "rgb": [
+      165,
+      210,
+      55
+    ]
+  },
+  {
+    "number": "TR42B",
+    "name": "Opaque Mustard",
+    "rgb": [
+      205,
+      165,
+      40
+    ]
+  },
+  {
+    "number": "TR50B",
+    "name": "Opaque Tangerine",
+    "rgb": [
+      245,
+      120,
+      40
+    ]
+  },
+  {
+    "number": "TR45D",
+    "name": "Opaque Wine",
+    "rgb": [
+      130,
+      25,
+      50
+    ]
+  },
+  {
+    "number": "TR46D",
+    "name": "Opaque Plum",
+    "rgb": [
+      95,
+      35,
+      95
+    ]
+  },
+  {
+    "number": "TR48N",
+    "name": "Opaque Navy",
+    "rgb": [
+      25,
+      40,
+      100
+    ]
+  },
+  {
+    "number": "TR48C",
+    "name": "Opaque Cobalt",
+    "rgb": [
+      35,
+      70,
+      180
+    ]
+  },
+  {
+    "number": "TR55T",
+    "name": "Opaque Teal",
+    "rgb": [
+      25,
+      125,
+      125
+    ]
+  },
+  {
+    "number": "TR47F",
+    "name": "Opaque Forest",
+    "rgb": [
+      25,
+      90,
+      50
+    ]
+  },
+  {
+    "number": "TR46T",
+    "name": "Opaque Tan",
+    "rgb": [
+      210,
+      170,
+      120
+    ]
+  },
+  {
+    "number": "TR46C",
+    "name": "Opaque Cocoa",
+    "rgb": [
+      90,
+      50,
+      30
+    ]
+  },
+  {
+    "number": "TR49C",
+    "name": "Opaque Charcoal",
+    "rgb": [
+      55,
+      55,
+      55
+    ]
+  },
+  {
+    "number": "TR53L",
+    "name": "Opaque Light Grey",
+    "rgb": [
+      185,
+      185,
+      185
+    ]
+  },
+  {
+    "number": "TR41I",
+    "name": "Opaque Ivory",
+    "rgb": [
+      255,
+      250,
+      235
+    ]
+  },
+  {
+    "number": "TR46S",
+    "name": "Opaque Sand",
+    "rgb": [
+      225,
+      195,
+      145
+    ]
+  },
+  {
+    "number": "TR122B",
+    "name": "Opaque Blush",
+    "rgb": [
+      255,
+      180,
+      175
+    ]
+  },
+  {
+    "number": "TR935B",
+    "name": "Opaque Soft Violet",
+    "rgb": [
+      170,
+      150,
+      210
+    ]
+  },
+  {
+    "number": "TR43P",
+    "name": "Opaque Powder",
+    "rgb": [
+      180,
+      210,
+      240
+    ]
+  },
+  {
+    "number": "TR55S",
+    "name": "Opaque Seafoam",
+    "rgb": [
+      160,
+      220,
+      190
+    ]
+  },
+  {
+    "number": "TR42H",
+    "name": "Opaque Honey",
+    "rgb": [
+      225,
+      165,
+      45
+    ]
+  },
+  {
+    "number": "TR45R",
+    "name": "Opaque Rust",
+    "rgb": [
+      165,
+      65,
+      40
+    ]
+  },
+  {
+    "number": "TR48M",
+    "name": "Opaque Midnight",
+    "rgb": [
+      20,
+      30,
+      80
+    ]
+  },
+  {
+    "number": "TR48O",
+    "name": "Opaque Ocean",
+    "rgb": [
+      20,
+      100,
+      170
+    ]
+  },
+  {
+    "number": "TR47P",
+    "name": "Opaque Parrot",
+    "rgb": [
+      50,
+      170,
+      60
+    ]
+  },
+  {
+    "number": "TR47E",
+    "name": "Opaque Evergreen",
+    "rgb": [
+      20,
+      90,
+      50
+    ]
+  },
+  {
+    "number": "TR46G",
+    "name": "Opaque Grape",
+    "rgb": [
+      90,
+      40,
+      140
+    ]
+  },
+  {
+    "number": "TR910F",
+    "name": "Opaque Fuchsia",
+    "rgb": [
+      220,
+      40,
+      120
+    ]
+  },
+  {
+    "number": "TR50C",
+    "name": "Opaque Cheddar",
+    "rgb": [
+      235,
+      170,
+      40
+    ]
+  },
+  {
+    "number": "TR46W",
+    "name": "Opaque Warm Grey",
+    "rgb": [
+      160,
+      150,
+      140
+    ]
+  }
+]

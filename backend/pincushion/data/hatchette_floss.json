@@ -1,0 +1,515 @@
+[
+  {
+    "number": "2",
+    "name": "Pewter Grey very dark",
+    "rgb": [
+      48,
+      52,
+      56
+    ]
+  },
+  {
+    "number": "3",
+    "name": "Pewter Grey dark",
+    "rgb": [
+      61,
+      66,
+      71
+    ]
+  },
+  {
+    "number": "4",
+    "name": "Steel Grey dark",
+    "rgb": [
+      100,
+      107,
+      120
+    ]
+  },
+  {
+    "number": "6",
+    "name": "Pearl Grey",
+    "rgb": [
+      159,
+      166,
+      177
+    ]
+  },
+  {
+    "number": "7",
+    "name": "Pearl Grey very light",
+    "rgb": [
+      196,
+      197,
+      206
+    ]
+  },
+  {
+    "number": "8",
+    "name": "Snow White",
+    "rgb": [
+      250,
+      250,
+      255
+    ]
+  },
+  {
+    "number": "12",
+    "name": "Coral",
+    "rgb": [
+      224,
+      77,
+      70
+    ]
+  },
+  {
+    "number": "13",
+    "name": "Coral light",
+    "rgb": [
+      242,
+      115,
+      101
+    ]
+  },
+  {
+    "number": "14",
+    "name": "Peach",
+    "rgb": [
+      254,
+      166,
+      147
+    ]
+  },
+  {
+    "number": "17",
+    "name": "Topaz light",
+    "rgb": [
+      255,
+      212,
+      71
+    ]
+  },
+  {
+    "number": "18",
+    "name": "Golden Yellow very light",
+    "rgb": [
+      250,
+      235,
+      151
+    ]
+  },
+  {
+    "number": "25",
+    "name": "Sky Blue light",
+    "rgb": [
+      142,
+      196,
+      216
+    ]
+  },
+  {
+    "number": "27",
+    "name": "Baby Blue very light",
+    "rgb": [
+      180,
+      207,
+      219
+    ]
+  },
+  {
+    "number": "30",
+    "name": "Golden Brown medium",
+    "rgb": [
+      196,
+      106,
+      44
+    ]
+  },
+  {
+    "number": "31",
+    "name": "Golden Brown light",
+    "rgb": [
+      230,
+      131,
+      61
+    ]
+  },
+  {
+    "number": "35",
+    "name": "Brown light",
+    "rgb": [
+      128,
+      70,
+      37
+    ]
+  },
+  {
+    "number": "37",
+    "name": "Tan light",
+    "rgb": [
+      209,
+      156,
+      106
+    ]
+  },
+  {
+    "number": "38",
+    "name": "Tan very light",
+    "rgb": [
+      213,
+      169,
+      120
+    ]
+  },
+  {
+    "number": "39",
+    "name": "Tan ultra very light",
+    "rgb": [
+      237,
+      205,
+      166
+    ]
+  },
+  {
+    "number": "40",
+    "name": "Cream",
+    "rgb": [
+      243,
+      232,
+      210
+    ]
+  },
+  {
+    "number": "41",
+    "name": "Beaver Grey light",
+    "rgb": [
+      152,
+      152,
+      139
+    ]
+  },
+  {
+    "number": "47",
+    "name": "Old Gold very light",
+    "rgb": [
+      234,
+      207,
+      142
+    ]
+  },
+  {
+    "number": "48",
+    "name": "Lavender dark",
+    "rgb": [
+      166,
+      108,
+      179
+    ]
+  },
+  {
+    "number": "49",
+    "name": "Lavender light",
+    "rgb": [
+      214,
+      181,
+      227
+    ]
+  },
+  {
+    "number": "63",
+    "name": "Dusty Rose very light",
+    "rgb": [
+      242,
+      168,
+      186
+    ]
+  },
+  {
+    "number": "73",
+    "name": "Tan",
+    "rgb": [
+      185,
+      124,
+      74
+    ]
+  },
+  {
+    "number": "74",
+    "name": "Brown medium",
+    "rgb": [
+      100,
+      56,
+      35
+    ]
+  },
+  {
+    "number": "88",
+    "name": "Dusty Rose",
+    "rgb": [
+      224,
+      108,
+      133
+    ]
+  },
+  {
+    "number": "105",
+    "name": "Forest Green light",
+    "rgb": [
+      135,
+      191,
+      120
+    ]
+  },
+  {
+    "number": "118",
+    "name": "Blue Violet very light",
+    "rgb": [
+      173,
+      186,
+      223
+    ]
+  },
+  {
+    "number": "133",
+    "name": "Turquoise",
+    "rgb": [
+      77,
+      146,
+      159
+    ]
+  },
+  {
+    "number": "137",
+    "name": "Straw light",
+    "rgb": [
+      240,
+      198,
+      95
+    ]
+  },
+  {
+    "number": "143",
+    "name": "Peach very light",
+    "rgb": [
+      253,
+      213,
+      193
+    ]
+  },
+  {
+    "number": "147",
+    "name": "Forest Green",
+    "rgb": [
+      108,
+      146,
+      84
+    ]
+  },
+  {
+    "number": "148",
+    "name": "Wedgewood light",
+    "rgb": [
+      61,
+      132,
+      164
+    ]
+  },
+  {
+    "number": "149",
+    "name": "Sky Blue",
+    "rgb": [
+      120,
+      177,
+      200
+    ]
+  },
+  {
+    "number": "150",
+    "name": "Autumn Gold light",
+    "rgb": [
+      249,
+      193,
+      112
+    ]
+  },
+  {
+    "number": "151",
+    "name": "Coffee Brown very dark",
+    "rgb": [
+      74,
+      46,
+      35
+    ]
+  },
+  {
+    "number": "152",
+    "name": "Emerald Green medium",
+    "rgb": [
+      0,
+      136,
+      83
+    ]
+  },
+  {
+    "number": "153",
+    "name": "Nile Green medium",
+    "rgb": [
+      77,
+      175,
+      120
+    ]
+  },
+  {
+    "number": "154",
+    "name": "Nile Green light",
+    "rgb": [
+      151,
+      220,
+      168
+    ]
+  },
+  {
+    "number": "166",
+    "name": "Beaver Grey very dark",
+    "rgb": [
+      78,
+      88,
+      71
+    ]
+  },
+  {
+    "number": "167",
+    "name": "Brown Grey medium",
+    "rgb": [
+      115,
+      114,
+      95
+    ]
+  },
+  {
+    "number": "168",
+    "name": "Hunter Green",
+    "rgb": [
+      77,
+      97,
+      48
+    ]
+  },
+  {
+    "number": "169",
+    "name": "Pistachio Green very light",
+    "rgb": [
+      193,
+      212,
+      157
+    ]
+  },
+  {
+    "number": "170",
+    "name": "Emerald Green very dark",
+    "rgb": [
+      0,
+      101,
+      64
+    ]
+  },
+  {
+    "number": "171",
+    "name": "White Lavender",
+    "rgb": [
+      224,
+      217,
+      228
+    ]
+  },
+  {
+    "number": "172",
+    "name": "Blue Violet dark",
+    "rgb": [
+      96,
+      79,
+      159
+    ]
+  },
+  {
+    "number": "173",
+    "name": "Blue Violet medium light",
+    "rgb": [
+      115,
+      125,
+      179
+    ]
+  },
+  {
+    "number": "174",
+    "name": "Turquoise dark",
+    "rgb": [
+      52,
+      123,
+      140
+    ]
+  },
+  {
+    "number": "175",
+    "name": "Turquoise light",
+    "rgb": [
+      122,
+      178,
+      181
+    ]
+  },
+  {
+    "number": "176",
+    "name": "Mahogany light",
+    "rgb": [
+      189,
+      95,
+      54
+    ]
+  },
+  {
+    "number": "177",
+    "name": "Golden Olive",
+    "rgb": [
+      154,
+      118,
+      44
+    ]
+  },
+  {
+    "number": "178",
+    "name": "Golden Olive very light",
+    "rgb": [
+      199,
+      165,
+      80
+    ]
+  },
+  {
+    "number": "179",
+    "name": "Straw dark",
+    "rgb": [
+      214,
+      150,
+      43
+    ]
+  },
+  {
+    "number": "180",
+    "name": "Topaz",
+    "rgb": [
+      252,
+      186,
+      64
+    ]
+  },
+  {
+    "number": "181",
+    "name": "Salmon very dark",
+    "rgb": [
+      166,
+      32,
+      48
+    ]
+  }
+]

@@ -7,7 +7,7 @@ import unittest
 import numpy as np
 from PIL import Image, ImageDraw, ImageFilter
 
-from knitarr.services.chart_detect import detect_grid_spec, extract_chart_grid
+from pincushion.services.chart_detect import detect_grid_spec, extract_chart_grid
 
 
 PALETTE = [

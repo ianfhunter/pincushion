@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import unittest
 
-from knitarr.services.fabric_size import fabric_inches, stitched_inches
+from pincushion.services.fabric_size import fabric_inches, stitched_inches
 
 
 class FabricSizeTests(unittest.TestCase):

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#2d4a3e" />
+    <title>404 · PinCushion</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --bg: #f4f0ea;
+        --surface: #fff;
+        --accent: #2d4a3e;
+        --text: #1a1a1a;
+        --muted: #666;
+        --border: #ddd5c8;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        font-family: system-ui, -apple-system, Segoe UI, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.45;
+        padding: 1.5rem;
+      }
+      .card {
+        width: min(36rem, 100%);
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 2.5rem 1.75rem;
+        text-align: center;
+      }
+      .brand {
+        font-family: "Google Sans", "Product Sans", system-ui, sans-serif;
+        font-weight: 700;
+        color: var(--accent);
+        letter-spacing: -0.02em;
+        margin: 0 0 1.25rem;
+      }
+      .code {
+        margin: 0;
+        font-family: "Google Sans", "Product Sans", system-ui, sans-serif;
+        font-size: 4.5rem;
+        font-weight: 700;
+        line-height: 1;
+        letter-spacing: -0.04em;
+        color: var(--accent);
+      }
+      h1 {
+        margin: 0.25rem 0 0.75rem;
+        font-family: "Google Sans", "Product Sans", system-ui, sans-serif;
+        font-weight: 700;
+        letter-spacing: -0.02em;
+      }
+      .meta {
+        color: var(--muted);
+        margin: 0;
+      }
+      code {
+        font-size: 0.95em;
+        background: #f0ebe3;
+        padding: 0.15em 0.4em;
+        border-radius: 4px;
+      }
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        justify-content: center;
+        margin-top: 1.5rem;
+      }
+      a {
+        display: inline-block;
+        text-decoration: none;
+        border-radius: 8px;
+        padding: 0.55rem 1rem;
+        font-weight: 600;
+      }
+      a.primary {
+        background: var(--accent);
+        color: #fff;
+      }
+      a.secondary {
+        background: transparent;
+        color: var(--accent);
+        border: 1px solid var(--border);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="card">
+      <p class="brand">PinCushion</p>
+      <p class="code">404</p>
+      <h1>Page not found</h1>
+      <p class="meta">No page at <code id="path">/</code>.</p>
+      <div class="actions">
+        <a class="primary" href="/#/search">Search</a>
+        <a class="secondary" href="/#/projects">Projects</a>
+        <a class="secondary" href="/#/docs/overview">Docs</a>
+      </div>
+    </main>
+    <script>
+      document.getElementById("path").textContent = location.pathname + location.search || "/";
+    </script>
+  </body>
+</html>

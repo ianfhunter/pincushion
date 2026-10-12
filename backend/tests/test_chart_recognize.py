@@ -5,7 +5,7 @@ from __future__ import annotations
 import unittest
 from PIL import Image, ImageDraw
 
-from knitarr.services.chart_recognize import recognize_chart_image
+from pincushion.services.chart_recognize import recognize_chart_image
 from tests.test_chart_detect import make_block_chart
 
 

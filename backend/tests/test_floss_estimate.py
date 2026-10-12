@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import unittest
 
-from knitarr.services.floss_estimate import skeins_needed, skeins_to_buy, stitches_per_skein
+from pincushion.services.floss_estimate import skeins_needed, skeins_to_buy, stitches_per_skein
 
 
 class FlossEstimateTests(unittest.TestCase):

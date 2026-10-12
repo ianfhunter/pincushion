@@ -1,5 +1,5 @@
 {
-  "name": "knitarr-ui",
+  "name": "pincushion-ui",
   "private": true,
   "version": "0.1.0",
   "type": "module",
@@ -7,8 +7,13 @@
     "build": "vite build",
     "dev": "vite"
   },
-  "dependencies": {},
+  "dependencies": {
+    "earcut": "^3.0.1",
+    "three": "^0.169.0"
+  },
   "devDependencies": {
+    "@types/earcut": "^2.1.4",
+    "@types/three": "^0.169.0",
     "typescript": "^5.7.2",
     "vite": "^6.0.6"
   }

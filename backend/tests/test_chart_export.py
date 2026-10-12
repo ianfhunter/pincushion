@@ -9,8 +9,8 @@ from pathlib import Path
 import fitz
 from PIL import Image
 
-from knitarr.parsers.oxs import NormalizedPattern, PaletteEntry, parse_oxs
-from knitarr.services.chart_export import (
+from pincushion.parsers.oxs import NormalizedPattern, PaletteEntry, parse_oxs
+from pincushion.services.chart_export import (
     CHART_EXPORT_FILENAME,
     CHART_PREVIEW_FILENAME,
     write_chart_export_pdf,

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chart>
-  <properties title="Knitarr Sample Heart" width="10" height="8" stitchesperinch="14"/>
+  <properties title="PinCushion Sample Heart" width="10" height="8" stitchesperinch="14"/>
   <palette>
     <palette_item index="0" number="cloth" name="cloth" color="FFFFFF" strands="2" symbol="32"/>
     <palette_item index="1" number="DMC 310" name="Black" color="000000" strands="2" symbol="33"/>

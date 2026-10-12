@@ -4,18 +4,18 @@ from __future__ import annotations
 
 import unittest
 
-from knitarr.indexers.antique_pattern_library import parse_catalog
-from knitarr.indexers.cross_stitch_com import design_to_fields
-from knitarr.indexers.cross_stitch_quest import _is_patreon_only, pick_pattern_files
-from knitarr.indexers.cyberstitchers import parse_cards, parse_page_counts, search_path
-from knitarr.indexers.free_patterns_online import (
+from pincushion.indexers.antique_pattern_library import parse_catalog
+from pincushion.indexers.cross_stitch_com import design_to_fields
+from pincushion.indexers.cross_stitch_quest import _is_patreon_only, pick_pattern_files
+from pincushion.indexers.cyberstitchers import parse_cards, parse_page_counts, search_path
+from pincushion.indexers.free_patterns_online import (
     parse_category,
     parse_chart_images,
     parse_index,
     strip_wayback,
     wayback_original,
 )
-from knitarr.indexers.wizardi import _matches, product_to_fields
+from pincushion.indexers.wizardi import _matches, product_to_fields
 
 
 _APL_SNIPPET = """
